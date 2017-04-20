@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="1dp"
+    android:paddingBottom="1dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.example.tuan_fpt.finddirection.model.Item
+        android:id="@+id/item"
+        android:background="@color/colorGrey"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</RelativeLayout>

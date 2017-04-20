@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@color/colorPurple"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tuan_fpt.finddirection.activity.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <com.example.tuan_fpt.finddirection.model.Character
+        android:id="@+id/charac"
+        android:src="@drawable/character"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</RelativeLayout>
